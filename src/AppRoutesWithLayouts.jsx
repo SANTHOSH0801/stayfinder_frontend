@@ -13,6 +13,7 @@ import HostEditListing from './Pages/HostEditListing.jsx';
 function AppRoutesWithLayouts() {
     return (
         <Routes>
+            
             <Route path={AppRoutes.HomePage} element={<HomePage />} />
             <Route path = {AppRoutes.SignupPage} element = {<SignupPage />}/>
             <Route path = {AppRoutes.LoginPage} element = {<LoginPage />}/>
