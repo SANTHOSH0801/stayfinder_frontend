@@ -2,7 +2,7 @@ import NavBar from '../Components/NavBar'
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'
-import image1 from '../assets/Loginpage.jpg'
+import image1 from '../assets/LoginPage.jpg'
 import '../css/LoginPage.css'
 
 function LoginPage() {
