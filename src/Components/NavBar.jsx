@@ -55,13 +55,13 @@ const NavBar = () => {
                             <li>
                                 <a
                                     className={isActive('/AboutPage') ? 'active' : 'notactive'}
-                                    onClick={() => navigate('/AboutPage')}
+                    
                                 >About</a>
                             </li>
                             <li>
                                 <a
                                     className={isActive('/OtherPages') ? 'active' : 'notactive'}
-                                    onClick={() => navigate('/OtherPages')}
+            
                                 >Pages</a>
                             </li>
                             {isHost && (
