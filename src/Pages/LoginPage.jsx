@@ -78,7 +78,7 @@ const handleSubmit = async (event) => {
 
                             <div className="extra-links">
                                 <p><a href="#">Forgot password?</a></p>
-                                <p>Don't have an account? <a onClick={() => navigate('/Signup')} >Register here</a></p>
+                                <p>Don't have an account? <a onClick={() => navigate('/SignupPage')} >Register here</a></p>
                             </div>
                         </form>
                     </div>
